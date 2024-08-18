@@ -1,6 +1,5 @@
 {
   "name": "template_website",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.3.28",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-typed": "^2.0.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
