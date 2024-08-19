@@ -3,7 +3,7 @@ import Welcome from './Welcome.jsx';
 
 function Home() {
   return (
-    <div className="relative h-100vh">
+    <div className='relative h-100vh'>
       <MoonVideo />
       <Welcome />
     </div>

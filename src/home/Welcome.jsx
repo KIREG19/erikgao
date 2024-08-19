@@ -48,13 +48,13 @@ const AnimatedText = ({ text }) => {
 
 function Welcome() {
   return (
-    <div className='absolute inset-0 flex flex-col items-center justify-center text-center z-100'>
-      <div className='flex flex-col text-6vw text-left <md:text-24px font-bold mb-30px>'>
+    <div className='absolute inset-0 flex flex-col items-center justify-center text-center z-99'>
+      <div className='flex flex-col text-6vw text-left <md:text-36px font-bold mb-30px>'>
         <AnimatedText
           text={[
             'Hi, I am Erik!',
-            'A Software Engineer',
-            'Welcome to my Website',
+            'A Software Engineer.',
+            'Welcome to my Website.',
           ]}
         />
       </div>

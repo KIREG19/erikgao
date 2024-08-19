@@ -1,4 +1,4 @@
-import github from './assets/github.svg';
+import github from '../assets/github.svg';
 
 function GitHub() {
   return (
