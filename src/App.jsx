@@ -1,5 +1,6 @@
 import Home from './home/Home.jsx';
 import Navbar from './navbar/Navbar.jsx';
+import Project from './project/Project.jsx'
 
 function App() {
   return (
@@ -16,9 +17,9 @@ function App() {
       </section>
       <section
         id='Project'
-        className='h-100vh flex flex-col text-6vw items-center justify-center text-center'
+      
       >
-        Project<div>...Stay tuned</div>
+        <Project />
       </section>
       <section
         id='Contact'
