@@ -34,7 +34,7 @@ function Navbar() {
     <div className='w-full flex items-center justify-around h-90px fixed top-0 z-100'>
       <Logo />
       <motion.div
-        className='flex gap-20px text-22px items-center <md:hidden>'
+        className='flex gap-20px text-22px items-center <md:hidden'
         // variants={variants}
       >
         {links.map((item) => (

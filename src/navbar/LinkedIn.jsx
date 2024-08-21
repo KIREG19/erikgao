@@ -1,13 +1,13 @@
-import linkedin from '../assets/linkedin.svg'
+import linkedin from '../assets/linkedin.svg';
 
 function LinkedIn() {
   return (
     <a
-    href='https://www.linkedin.com/in/erikgaogg/'
-    target='_blank'
-    className='cursor-pointer'
-  >
-    <img src={linkedin} alt='LinkedIn' />
+      href='https://www.linkedin.com/in/erikgaogg/'
+      target='_blank'
+      className='cursor-pointer'
+    >
+      <img src={linkedin} alt='LinkedIn' />
     </a>
   );
 }
