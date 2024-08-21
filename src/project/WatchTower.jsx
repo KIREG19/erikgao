@@ -48,10 +48,10 @@ function WatchTower({ variants, techStack }) {
           ))}
         </div>
         <button
-          className='w-100px h-50px rounded-50px bg-orange-400 text-white border-none text-24px cursor-pointer <md:(w-150px h-50px text-16px bg-transparent border border-orange-400 text-orange-400)'
+          className='w-150px h-60px rounded-50px bg-orange-400 text-white border-none text-24px cursor-pointer <md:(w-210px h-60px text-16px bg-transparent border border-orange-400 text-orange-400)'
           onClick={ToWatchTower}
         >
-          Try me!
+          Check it out!
         </button>
       </div>
     </motion.div>
