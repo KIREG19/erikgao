@@ -5,10 +5,11 @@ import Oslabs from './WatchTower';
 
 function Project() {
   const ref = useRef();
-  const isInView = useInView(ref, { margin: '-100px', once: true });
+  const isInView = useInView(ref, { once: true });
 
   const variants = {
     initial: {
+      x: -500,
       opacity: 0,
     },
     animate: {

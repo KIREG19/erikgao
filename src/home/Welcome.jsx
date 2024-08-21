@@ -3,12 +3,14 @@ import { motion } from 'framer-motion';
 
 const defaultAnimations = {
   hidden: {
+    y: -500,
     opacity: 0,
   },
   visible: {
+    y: 0,
     opacity: 1,
     transition: {
-      duration: 0.01,
+      duration: 0.1,
     },
   },
 };
