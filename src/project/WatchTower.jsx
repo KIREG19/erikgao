@@ -19,7 +19,7 @@ function WatchTower({ variants, techStack }) {
 
   return (
     <motion.div
-      className='flex flex-1 max-w-1600px items-center gap-12 mb-10 <md:w-full'
+      className='flex flex-1 max-w-1600px items-center gap-12 mt-25 mb-10 <md:w-full'
       variants={variants}
     >
       <img

@@ -27,7 +27,7 @@ function Project() {
 
   return (
     <motion.div
-      className='h-100vh flex flex-col items-center justify-around'
+      className='h-100% flex flex-col items-center justify-around'
       variants={variants}
       initial='initial'
       animate={isInView ? 'animate' : 'initial'}
