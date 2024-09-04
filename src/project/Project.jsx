@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import SideProject from './sideProject';
-import Oslabs from './WatchTower';
+import WatchTower from './WatchTower';
 
 function Project() {
   const ref = useRef();
@@ -34,14 +34,14 @@ function Project() {
       ref={ref}
     >
       <motion.div
-        className='flex-1 justify-center flex items-center gap-5 <md:(self-center text-center flex-col)'
+        className='flex-1 mt-100px justify-center flex items-center gap-5 <md:(self-center text-center flex-col)'
         variants={variants}
       >
         <h1 className='font-bold text-8vh justify-center text-center <md:mb-4'>
           My Projects
         </h1>
       </motion.div>
-      <Oslabs variants={variants} techStack={techStack} />
+      <WatchTower variants={variants} techStack={techStack} />
       <SideProject variants={variants} techStack={techStack} />
     </motion.div>
   );

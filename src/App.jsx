@@ -11,6 +11,7 @@ function App() {
       <section id='Home'>
         <Home />
       </section>
+      <div className='bg-black w-full h-90px sticky top-0 z-99'></div>
       <section id='About me'>
         <AboutMe />
       </section>
