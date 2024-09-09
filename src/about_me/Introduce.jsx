@@ -1,6 +1,6 @@
 function Introduce() {
   return (
-    <div className='flex flex-col gap-5 text-1.8vw'>
+    <div className='flex flex-col gap-5 rounded-100px p-15 bg-slate-900 text-1.6vw' >
       <p>
         I am an innovative software engineer specializing in full-stack
         development with TypeScript, React, Node.js, and AWS technologies.

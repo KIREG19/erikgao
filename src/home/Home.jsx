@@ -1,10 +1,10 @@
-import MoonVideo from './MoonVideo.jsx';
+import Moon from './Moon.jsx';
 import Welcome from './Welcome.jsx';
 
 function Home() {
   return (
     <div className='relative h-100vh'>
-      <MoonVideo />
+      <Moon />
       <Welcome />
     </div>
   );

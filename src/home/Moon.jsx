@@ -1,6 +1,6 @@
 import moon from '../assets/moon.mp4';
 
-function MoonVideo() {
+function Moon() {
   return (
     <video
       className='h-full w-full object-cover top-0 z-98'
@@ -14,4 +14,4 @@ function MoonVideo() {
   );
 }
 
-export default MoonVideo;
+export default Moon;

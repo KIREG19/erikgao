@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import SideProject from './sideProject';
 import WatchTower from './WatchTower';
+import Meteor from './meteor';
 
 function Project() {
   const ref = useRef();
@@ -27,12 +28,13 @@ function Project() {
 
   return (
     <motion.div
-      className='h-100% flex flex-col items-center justify-around'
+      className='relative h-100% flex flex-col items-center justify-around'
       variants={variants}
       initial='initial'
       animate={isInView ? 'animate' : 'initial'}
       ref={ref}
     >
+      <Meteor />
       <motion.div
         className='flex-1 mt-100px justify-center flex items-center gap-5 <md:(self-center text-center flex-col)'
         variants={variants}
